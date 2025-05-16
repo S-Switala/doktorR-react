@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://doktorr.pl/</loc>
+  </url>
+
+  <url>
+    <loc>https://doktorr.pl/o-nas</loc>
+  </url>
+
+  <url>
+    <loc>https://doktorr.pl/kontakt</loc>
+  </url>
+
+  <url>
+    <loc>https://doktorr.pl/cennik</loc>
+  </url>
+
+  <!-- Usługi -->
+  <url>
+    <loc>https://doktorr.pl/uslugi/bezbolesne-leczenie-zebow</loc>
+  </url>
+  <!-- <url>
+    <loc>https://doktorr.pl/uslugi/diagnostyka</loc>
+  </url> -->
+  <url>
+    <loc>https://doktorr.pl/uslugi/implanty</loc>
+  </url>
+  <url>
+    <loc>https://doktorr.pl/uslugi/profilaktyka</loc>
+  </url>
+  <url>
+    <loc>https://doktorr.pl/uslugi/stomatologia-dziecieca</loc>
+  </url>
+  <url>
+    <loc>https://doktorr.pl/uslugi/stomatologia_zachowawcza/leczenie-prochnicy</loc>
+  </url>
+  <url>
+    <loc>https://doktorr.pl/uslugi/protetyka/korony</loc>
+  </url>
+  <url>
+    <loc>https://doktorr.pl/uslugi/protetyka/protezy</loc>
+  </url>
+  <url>
+    <loc>https://doktorr.pl/uslugi/endodoncja/leczenie-mikroskop</loc>
+  </url>
+  <url>
+    <loc>https://doktorr.pl/uslugi/endodoncja/powtorne-leczenie</loc>
+  </url>
+  <url>
+    <loc>https://doktorr.pl/uslugi/chirurgia_stomatologiczna/usuwanie-zebow</loc>
+  </url>
+  <!-- <url>
+    <loc>https://doktorr.pl/uslugi/wybielanie_zebow/wybielanie-lampa</loc>
+  </url> -->
+  <url>
+    <loc>https://doktorr.pl/uslugi/wybielanie_zebow/wybielanie-laserem</loc>
+  </url>
+
+</urlset>

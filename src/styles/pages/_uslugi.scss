@@ -1,0 +1,145 @@
+.header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: $primary-light;
+
+  picture {
+    width: 100%;
+    display: block;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); // opcjonalne przyciemnienie
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  &__title {
+    color: $white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    max-height: 75vh; // lub np. 600px – zależnie od efektu
+  }
+}
+
+.image-text-section {
+  padding: 60px 20px;
+  background-color: $primary-light;
+
+  .image-text-wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+
+    @include respond(md) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  .text-side,
+  .image-side {
+    flex: 1 1 50%;
+  }
+
+  .text-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $text-color;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: $primary;
+      text-align: left;
+
+      @include respond(md) {
+        text-align: center;
+      }
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: $text-light;
+      margin-bottom: 1.2rem;
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      @include respond(md) {
+        text-align: center;
+      }
+    }
+  }
+
+  .image-side {
+    position: relative;
+    aspect-ratio: 3 / 2;
+
+    img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+
+    @include respond(md) {
+      aspect-ratio: auto;
+      position: static;
+
+      img {
+        position: static;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  @include respond(sm) {
+    padding: 60px 0;
+
+    .text-side {
+      padding: 0 20px;
+    }
+
+    .image-side {
+      img {
+        border-radius: 0;
+      }
+    }
+  }
+}

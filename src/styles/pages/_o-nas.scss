@@ -1,0 +1,62 @@
+.zespol {
+  background-color: $primary-light;
+  padding: 4rem 2rem;
+  text-align: center;
+
+  h1 {
+    font-size: 2rem;
+    color: $primary;
+    margin-bottom: 3rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1200px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .team-member {
+    background-color: $white;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      color: $text-color;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: $text-light;
+      line-height: 1.4;
+    }
+  }
+}
