@@ -1,12 +1,26 @@
-# React + Vite
+# 🦷 doktorr.pl – Strona internetowa przychodni dentystycznej
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**doktorr.pl** to nowoczesna, w pełni responsywna strona internetowa zaprojektowana dla przychodni dentystycznej. Umożliwia pacjentom zapoznanie się z ofertą, cennikiem, zespołem lekarzy oraz danymi kontaktowymi.
 
-Currently, two official plugins are available:
+Strona została zbudowana przy użyciu lekkiego i szybkiego stacku technologicznego opartego na **React.js** i **Vite**, a jej estetyczny i intuicyjny design został osiągnięty dzięki użyciu **SCSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Demo
 
-## Expanding the ESLint configuration
+🔗 [www.doktorr.pl](https://www.doktorr.pl)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funkcjonalności
+
+- 📱 W pełni responsywny design (mobile-first)
+- 🧑‍⚕️ Prezentacja zespołu medycznego
+- 💰 Przejrzysty cennik usług
+- 📍 Sekcja kontaktowa z mapą i danymi teleadresowymi
+- ⚡️ Szybkie ładowanie dzięki Vite
+- 🔀 Nawigacja SPA z React Router
+
+## 🛠️ Technologie
+
+- [Vite](https://vitejs.dev/) – szybkie środowisko build/development
+- [React.js](https://reactjs.org/) – interfejs użytkownika
+- [React Router](https://reactrouter.com/) – zarządzanie routami
+- [SCSS](https://sass-lang.com/) – modularne stylowanie
+- Hosting: [Cyberfolks](https://cyberfolks.pl)
